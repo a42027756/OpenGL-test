@@ -1,0 +1,40 @@
+﻿  glad.c
+  old_reference.cpp
+  Shader.cpp
+  templateOpenGL.cpp
+E:\Learning Materials\C++\templateOpenGL\templateOpenGL\Mesh.h(99,64): warning C4244: “参数”: 从“unsigned int”转换到“float”，可能丢失数据
+E:\Learning Materials\C++\templateOpenGL\templateOpenGL\Mesh.h(106,68): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+E:\Learning Materials\C++\templateOpenGL\templateOpenGL\templateOpenGL.cpp(66,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Learning Materials\C++\templateOpenGL\templateOpenGL\templateOpenGL.cpp(67,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Learning Materials\C++\templateOpenGL\templateOpenGL\templateOpenGL.cpp(71,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Learning Materials\C++\templateOpenGL\templateOpenGL\templateOpenGL.cpp(72,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Learning Materials\C++\templateOpenGL\templateOpenGL\templateOpenGL.cpp(73,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Learning Materials\C++\templateOpenGL\templateOpenGL\templateOpenGL.cpp(74,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Learning Materials\C++\templateOpenGL\templateOpenGL\templateOpenGL.cpp(82,31): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\Learning Materials\C++\templateOpenGL\templateOpenGL\templateOpenGL.cpp(568,34): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+E:\Learning Materials\C++\templateOpenGL\templateOpenGL\templateOpenGL.cpp(568,34): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+E:\Learning Materials\C++\templateOpenGL\templateOpenGL\templateOpenGL.cpp(587,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码...
+templateOpenGL.obj : error LNK2019: 无法解析的外部符号 glfwInit，函数 main 中引用了该符号
+templateOpenGL.obj : error LNK2019: 无法解析的外部符号 glfwTerminate，函数 main 中引用了该符号
+templateOpenGL.obj : error LNK2019: 无法解析的外部符号 glfwWindowHint，函数 main 中引用了该符号
+templateOpenGL.obj : error LNK2019: 无法解析的外部符号 glfwCreateWindow，函数 main 中引用了该符号
+templateOpenGL.obj : error LNK2019: 无法解析的外部符号 glfwWindowShouldClose，函数 main 中引用了该符号
+templateOpenGL.obj : error LNK2019: 无法解析的外部符号 glfwSetWindowShouldClose，函数 "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPEAUGLFWwindow@@@Z) 中引用了该符号
+templateOpenGL.obj : error LNK2019: 无法解析的外部符号 glfwSetFramebufferSizeCallback，函数 main 中引用了该符号
+templateOpenGL.obj : error LNK2019: 无法解析的外部符号 glfwPollEvents，函数 main 中引用了该符号
+templateOpenGL.obj : error LNK2019: 无法解析的外部符号 glfwSetInputMode，函数 main 中引用了该符号
+templateOpenGL.obj : error LNK2019: 无法解析的外部符号 glfwGetKey，函数 "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPEAUGLFWwindow@@@Z) 中引用了该符号
+templateOpenGL.obj : error LNK2019: 无法解析的外部符号 glfwSetCursorPosCallback，函数 main 中引用了该符号
+templateOpenGL.obj : error LNK2019: 无法解析的外部符号 glfwSetScrollCallback，函数 main 中引用了该符号
+templateOpenGL.obj : error LNK2019: 无法解析的外部符号 glfwGetTime，函数 main 中引用了该符号
+templateOpenGL.obj : error LNK2019: 无法解析的外部符号 glfwMakeContextCurrent，函数 main 中引用了该符号
+templateOpenGL.obj : error LNK2019: 无法解析的外部符号 glfwSwapBuffers，函数 main 中引用了该符号
+templateOpenGL.obj : error LNK2019: 无法解析的外部符号 glfwGetProcAddress，函数 main 中引用了该符号
+templateOpenGL.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QEAA@XZ)，函数 "private: void __cdecl Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadModel@Model@@AEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中引用了该符号
+templateOpenGL.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QEAA@XZ)，函数 "private: void __cdecl Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadModel@Model@@AEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中引用了该符号
+templateOpenGL.obj : error LNK2019: 无法解析的外部符号 "public: struct aiScene const * __cdecl Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QEAAPEBUaiScene@@PEBDI@Z)，函数 "public: struct aiScene const * __cdecl Assimp::Importer::ReadFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,unsigned int)" (?ReadFile@Importer@Assimp@@QEAAPEBUaiScene@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z) 中引用了该符号
+templateOpenGL.obj : error LNK2019: 无法解析的外部符号 "public: char const * __cdecl Assimp::Importer::GetErrorString(void)const " (?GetErrorString@Importer@Assimp@@QEBAPEBDXZ)，函数 "private: void __cdecl Model::loadModel(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?loadModel@Model@@AEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中引用了该符号
+templateOpenGL.obj : error LNK2019: 无法解析的外部符号 aiGetMaterialTextureCount，函数 "public: unsigned int __cdecl aiMaterial::GetTextureCount(enum aiTextureType)const " (?GetTextureCount@aiMaterial@@QEBAIW4aiTextureType@@@Z) 中引用了该符号
+templateOpenGL.obj : error LNK2019: 无法解析的外部符号 aiGetMaterialTexture，函数 "public: enum aiReturn __cdecl aiMaterial::GetTexture(enum aiTextureType,unsigned int,struct aiString *,enum aiTextureMapping *,unsigned int *,float *,enum aiTextureOp *,enum aiTextureMapMode *)const " (?GetTexture@aiMaterial@@QEBA?AW4aiReturn@@W4aiTextureType@@IPEAUaiString@@PEAW4aiTextureMapping@@PEAIPEAMPEAW4aiTextureOp@@PEAW4aiTextureMapMode@@@Z) 中引用了该符号
+E:\Learning Materials\C++\templateOpenGL\x64\Debug\templateOpenGL.exe : fatal error LNK1120: 22 个无法解析的外部命令

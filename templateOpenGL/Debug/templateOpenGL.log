@@ -1,0 +1,11 @@
+﻿  stencil.cpp
+E:\Learning Materials\C++\templateOpenGL\templateOpenGL\stencil.cpp(185,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Learning Materials\C++\templateOpenGL\templateOpenGL\stencil.cpp(243,26): warning C4305: “初始化”: 从“double”到“float”截断
+E:\Learning Materials\C++\templateOpenGL\templateOpenGL\stencil.cpp(311,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Learning Materials\C++\templateOpenGL\templateOpenGL\stencil.cpp(312,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Learning Materials\C++\templateOpenGL\templateOpenGL\stencil.cpp(316,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Learning Materials\C++\templateOpenGL\templateOpenGL\stencil.cpp(317,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Learning Materials\C++\templateOpenGL\templateOpenGL\stencil.cpp(319,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Learning Materials\C++\templateOpenGL\templateOpenGL\stencil.cpp(320,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\Learning Materials\C++\templateOpenGL\templateOpenGL\stencil.cpp(329,31): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  templateOpenGL.vcxproj -> E:\Learning Materials\C++\templateOpenGL\Debug\templateOpenGL.exe
